@@ -1,1 +1,73 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="src/css/bootstrap.min.css" rel="stylesheet">
+    <link href="src/css/base.css" rel="stylesheet">
+    <link href="src/css/ubuntu.css" rel="stylesheet">
+    <link href='src/css/inter.css' rel='stylesheet'>
+    <link href='src/css/caladea.css' rel='stylesheet'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <title>CHENNAI: Tales of a watery city</title>
+</head>
+
+<body>
+    <div class="modal fade" id="welcome" role="dialog">
+        <div class="welcome-helper">
+            <div class="modal-dialog modal-lg welcome-box" style="width:750px;">
+                <div class="modal-content">
+                    <div class="welcome">
+                        <div class="welcome-title">CHENNAI: Tales of a watery city</div>
+                        <div class="welcome-content">Decolonizing archives of Water unearths social and spatial relations around urban water systems and the water-commons that have been central to the survival of marginalized and caste oppressed communities of Chennai, an Indian
+                            coastal city.</div>
+                        <div class="welcome-buttons">
+                            <button class="welcome-button" data-dismiss="modal">Enter Site &nbsp; <end class="fa-solid fa-arrow-right"></end></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left-panel">
+        <div class="main-nav">
+            <div class="main-nav-title">CHENNAI: Tales of a watery city</div>
+            <div class="main-nav-content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tristique non vitae nec tincidunt arcu. Dui ultrices volutpat vulputate nec consectetur ultricies suscipit nullam. Laoreet consectetur est quam quam velit dapibus. Amet natoque cras tortor,
+                sapien, venenatis tincidunt egestas ultrices. Enim, ac mi massa sed nec quis congue amet, sed. Orci mollis sed aliquam nec sit nulla accumsan vitae.
+            </div>
+            <div class="main-nav-buttons">
+                <div class="main-nav-line"></div>
+                <a href="lifecycle_of_a_strom_0.html" class="main-nav-button">Lifecycle of a Storm<end class="fa-solid fa-chevron-right"></end></a> <br>
+                <div class="main-nav-line"></div>
+                <button class="main-nav-button" style="display:none;">Story Maps<end class="fa fa-chevron-right"></end></button><br style="display:none;">
+                <div class="main-nav-line" style="display:none;"></div>
+                <button class="main-nav-button" style="display:none;">Historical Maps<end class="fa fa-chevron-right"></end></button><br style="display:none;">
+                <div class="main-nav-line" style="display:none;"></div>
+                <button class="main-nav-button">Our Team & Methodology<end class="fa fa-chevron-right"></end></button><br>
+                <div class="main-nav-line"></div>
+            </div>
+            <div class="main-nav-logo">
+                <img src="src/img/logo.png" alt="logo" class="img-logo">
+            </div>
+        </div>
+    </div>
+
+    <div class="right-panel">
+        <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=80.22851943969728%2C12.996069224441474%2C80.30018806457521%2C13.032613793633573&amp;layer=mapnik">
+        </iframe>
+    </div>
+</body>
+
+<script>
+    $(window).load(function() {
+        $('#welcome').modal('show');
+    });
+</script>
+
+</html>
